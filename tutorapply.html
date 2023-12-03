@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lookup!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/css/base.css">
+		<link rel="stylesheet" href="/css/index.css">
+		<link rel="stylesheet" href="/css/app.css">
+  </head>
+  <body>
+<section class="prompt">
+  <h1>Embrace AI</h1>
+<form method="post" action="/send-tutor">
+  <section>
+    <label for="mailchain_address">Your Web3 Address (Mailchain Address or ENS Name)</label>
+    <input
+      id="mailchain_address"
+      name="mailchain_address"
+      type="text"
+      autocomplete="username"
+      placeholder="...@mailchain.com or ensname.eth"
+      required
+      autofocus
+    />
+  
+  <label>Your Course:</label>
+    <input type="text" name="yourCourse" class="query-input" placeholder="Your course title" required
+    autofocus>
+    <label>Date:</label>
+    <input type="text" name="creationdate" class="query-input" placeholder="current date" required
+    autofocus>
+    <label>Your Charges:</label>
+    <input type="text" name="price" class="query-input" placeholder="your price" required
+    autofocus>
+    <label>Duration:</label>
+    <input type="text" name="duration" class="query-input" placeholder="course will from date what to date what" required
+    autofocus>
+    <label>Category:</label>
+    <input type="text" name="courseCategory" class="query-input" placeholder="e.g AI videos, audio, writing...." required
+    autofocus>
+    <label>Sub-Category:</label>
+    <input type="text" name="courseSubCategory" class="query-input" placeholder="e.g for AI videos is AI animation..." required
+    autofocus>
+    <label>Description:</label>
+    <input type="text" name="description" class="query-input" placeholder="Describe your offering/what learners will gain" required
+    autofocus>
+    <label>Skills to be Gained:</label>
+    <input type="text" name="skillsGained" class="query-input" placeholder="e.g. openAI codex, invideos, jasper, chatgpt 4..." required
+    autofocus>
+  
+    <!-- Other input fields for Expertise, Creation Date, Compensation, etc. -->
+  </section>
+  
+    <button type="submit" class="submit-btn">Register as an AI tutor</button>
+  </form>
+</section>
+  </body>

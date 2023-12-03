@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lookup!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/css/base.css">
+		<link rel="stylesheet" href="/css/index.css">
+		<link rel="stylesheet" href="/css/app.css">
+  </head>
+  <body>
+<section class="prompt">
+  <h1>Embrace AI</h1>
+<form method="post" action="/send-expertapply">
+  <section>
+    <label for="mailchain_address">Web3 Address: </label>
+    <input
+      id="mailchain_address"
+      name="web3Address"
+      type="text"
+      autocomplete="username"
+      placeholder="...@mailchain.com or ensname.eth"
+      required
+      autofocus
+    />
+  
+    <label>Your Secret Word(s):</label>
+    <input type="text" name="secretWord" class="query-input" placeholder="only you can remember" required
+    autofocus>
+    <label>Date:</label>
+    <input type="text" name="creationDate" class="query-input" placeholder="current date" required
+    autofocus>
+    <label>Your Expertise:</label>
+    <input type="text" name="expertise" class="query-input" placeholder="your specialization e.g ai videos" required
+    autofocus>
+    <!--<label>Duration:</label>
+    <input type="text" name="duration" class="query-input" placeholder="task will from date what to date what" required
+    autofocus>
+    <label>Category:</label>
+    <input type="text" name="jobCategory" class="query-input" placeholder="e.g AI videos, audio, writing...." required
+    autofocus>
+    <label>Sub-Category:</label>
+    <input type="text" name="jobSubCategory" class="query-input" placeholder="e.g for AI videos is AI animation" required
+    autofocus>
+    <label>Description:</label>
+    <input type="text" name="description" class="query-input" placeholder="your instructions/details" required
+    autofocus>
+    <label>Skills Required:</label>
+    <input type="text" name="skillsRequired" class="query-input" placeholder="any combination of skills an expert should have?" required
+    autofocus>-->
+  
+    <!-- Other input fields for Expertise, Creation Date, Compensation, etc. -->
+  </section>
+  
+    <button type="submit" class="submit-btn">Post Job</button>
+  </form>
+</section>
+  </body>
+  
