@@ -559,7 +559,7 @@ p {
 
 /*for my blog and about*/
 .scrollContainerr_xwJ0
-{ display:block; margin:auto;  width:1120px; height:auto;}
+{ display:block; margin:32px 0 8px;  width:auto; height:auto;}
 .samplesContainerr_Uf1I{display:flex;/*gap:20px;*/   position:relative;
 }
 .samplesContainer_Uf1I::-webkit-scrollbar{width:12px;}
@@ -624,15 +624,17 @@ p {
 .bodyy_j9ei
 {
   color:#18181899;
-  font-weight:450;
+  font-weight:400;
   margin-bottom:1rem;
-  overflow:hidden;
+  /*overflow:hidden;*/
   font-size: 15px;
     line-height: 22px;
 
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
+
+  
 
   /*max-height: 500px; /* Set a maximum height for the container */
   /*overflow: auto; /* Enable vertical scrolling when the content overflows the max-height */
@@ -670,7 +672,7 @@ p {
 }
 
 .blogs__sidebar {
-  border-right: 2px solid #dddddd;
+  /*border-right: 1px solid #dddddd;*/
   flex-shrink: 0;
   overflow-y: auto;
   padding: 1em;
@@ -701,6 +703,23 @@ p {
 .blogs__small-title, .blogs__small-updated {
   padding: 10px;
 }
+
+.section-b {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0 8px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  position: relative;
+
+  
+  
+}
+
+
+
 /*blog and about ends here*/
 
 /*For my expert section*/
@@ -837,7 +856,7 @@ p {
         align-items: center;
         display: flex;
         flex-direction: row;
-        font-size: 60px;
+        font-size: 30px;
         font-weight: 700;
         justify-content: center;
         line-height: 70px;
