@@ -2447,8 +2447,9 @@ option {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 10px;
   padding: 15px;
-  font-family: Neuemontreal,sans-serif;
+  font-family: inherit;
   font-weight: 500;
   text-decoration: none;
   transition: background-color .3s,color .3s;
@@ -2459,6 +2460,11 @@ option {
   display: inline-block;
 }
 
+.w-inlinee-block {
+  max-width: 100%;
+  display:flex;
+}
+
 .h5-style-rebrand.margin-25 {
   margin-bottom: 25px;
 }
@@ -2466,8 +2472,8 @@ option {
   color: #001e00;
   letter-spacing: -.02em;
   margin-bottom: 10px;
-  font-family: Neuemontreal,sans-serif;
-  font-size: 22px;
+  font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.1em;
 }
