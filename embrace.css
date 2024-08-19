@@ -95,7 +95,7 @@ li {
   
   .btn {
     display: block;
-    background-color: #1f57c3;
+    background-color: #0062fe;
     color: white;
     text-align: center;
     padding: 0.6rem 1.4rem;
@@ -202,7 +202,7 @@ li {
   }
   .menu-bar .nav-link:hover,
   .dropdown-link:hover {
-    color: #3b6caa;
+    color: #0062fe;
   }
   
   .nav-start,
@@ -388,7 +388,7 @@ li {
 
  
  .callToAction_Az00 {
-  color: #3b00b9;
+  color: #0062fe;
   display: flex;
   font-size: 20px;
   font-weight: 700;
@@ -440,7 +440,7 @@ p {
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  --swiper-theme-color: #3b6caa;
+  --swiper-theme-color: #0062fe;
 
 }
 
@@ -908,7 +908,7 @@ p {
     }
     
     a {
-        color: #3b6caa;
+        color: #0062fe;
         text-decoration: none;
     }
     
@@ -925,7 +925,7 @@ p {
     }
     
     .informationTitle_KlBT {
-        color: #3b6caa;
+        color: #0062fe;
         font-size: 40px;
         font-weight: 700;
         line-height: 50px;
@@ -948,7 +948,7 @@ p {
     
     
     .informationIcon_Ff5Z {
-        color: #3b6caa;
+        color: #0062fe;
         height: 24px;
         margin: auto;
         width: 24px;
@@ -970,7 +970,7 @@ p {
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  --swiper-theme-color: #3b6caa;
+  --swiper-theme-color: #0062fe;
     }
   
     .container_V2rN{margin:auto;padding:40px 0;position:relative;width:100vw}
@@ -1466,7 +1466,7 @@ p {
       padding: 120px 0 200px;
       position: relative;
       width: Min(1250px,100%);
-      --swiper-theme-color: #3b6caa;
+      --swiper-theme-color: #0062fe;
   }
 
   
@@ -1553,7 +1553,7 @@ p {
 }
 
 .cardTitle_moNZ {
-  color: #3b6caa;
+  color: #0062fe;
   font-size: 20px;
   line-height: 32px;
   font-weight: 700;
@@ -1568,7 +1568,7 @@ p {
 }
 
 .informationIcon_HSbB {
-  color: #3b6caa;
+  color: #0062fe;
   height: 24px;
   margin: auto;
   width: 24px;
