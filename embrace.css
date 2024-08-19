@@ -1605,7 +1605,7 @@ p {
     }
 
     .footer {
-        background-color: #3b6caa;	
+        background-color: #0062fe;	
         color: inherit;;
         padding: 1rem;
     }
@@ -1695,7 +1695,7 @@ p {
 
     .button-white, .button-white:hover {
         --tw-text-opacity: 1;
-        color: #2b72fb;
+        color: #0062fe;
     }
     .button-white {
         --tw-bg-opacity: 1;
@@ -1994,7 +1994,7 @@ option {
   width: 75%;
   height: 75%;
   border-radius: 50%;
-  border: 10px dashed #648fff;
+  border: 10px dashed #0062fe;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2050,8 +2050,8 @@ option {
 }
 
 .button-tb.button-tb--cta.button-tb--blue {
-  background-color: #1f57c3;
-  border-color: #1f57c3;
+  background-color: #0062fe;
+  border-color: #0062fe;
 }
 
 .button-tb.button-tb--cta.button-tb--nblue {
@@ -2199,7 +2199,7 @@ option {
   width: 100%;
   max-width: 1450px;
   color: #f7faf7;
-  background-color: #1f57c3;
+  background-color: #0062fe;
   border-radius: 10px;
   padding: 15px;
   height: 260px;
@@ -2356,7 +2356,7 @@ option {
   color: #fff;
   line-height: inherit;
   cursor: pointer;
-  background-color: #1f57c3;
+  background-color: #0062fe;
   border: 0;
   border-radius: 0;
   padding: 9px 15px;
@@ -2485,7 +2485,7 @@ option {
 }
 
 .rebrand-link-blue {
-  color: #1f57c3;
+  color: #0062fe;
   text-decoration: underline;
 }
 
@@ -2594,7 +2594,7 @@ option {
   max-width: 940px;
   grid-column-gap: 25px;
   color: #fff;
-  background-color: #1f57c3;
+  background-color: #0062fe;
   border-radius: 8px;
   margin-bottom: 60px;
   padding: 15px 25px 15px 15px;
