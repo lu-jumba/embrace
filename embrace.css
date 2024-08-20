@@ -2145,7 +2145,7 @@ option {
   padding: 20px;
 }
 
-.col-5-2>div{margin-bottom:20px;width:580px; height: 580px; }
+.col-5-2>div{margin-bottom:20px; width:580px; height: 580px; }
 .col-5-2:first-child {padding-left:calc((100vw - Min(1100px,90vw))/ 2);}
 .col-5-2:last-child {margin-right:0;padding-right:calc((100vw - Min(1100px,90vw))/ 2);}
 
